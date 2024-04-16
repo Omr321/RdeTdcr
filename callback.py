@@ -3,7 +3,7 @@ import requests
 
 app = Flask(__name__)
 
-WEBHOOK_URL = "YOUR_WEBHOOK_URL"
+WEBHOOK_URL = "https://canary.discord.com/api/webhooks/1229695559066193981/O4c2k-1z1_szLCa1Hre0qdHlAUGpZwa8tGndRCnc6fM0R0cUTiVnNSYy6HhA3CEy8P13"
 
 @app.route('/callback')
 def callback():
