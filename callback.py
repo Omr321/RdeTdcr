@@ -23,7 +23,7 @@ def callback():
 def get_user_info(code):
     client_id = "1183756471687725056"
     client_secret = "NC9Hn1Sr83ZOR3oaFB3Z3pPLByM0dHH1"
-    redirect_uri = "http://localhost:5000/callback"
+    redirect_uri = "https://sites.google.com/view/test2e2e/home?read_current=1"
     
     payload = {
         'client_id': client_id,
